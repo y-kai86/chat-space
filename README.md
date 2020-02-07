@@ -6,18 +6,18 @@
 |password|string|null: false|
 |username|string|null: false|
 ### Association
-- has_many :groups
+- has_many :groups_users
 - has_many :comments
-- groups through:groups_users
+- has_many groups through:groups_users
 
 ## groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false|
 ### Association
-- has_many :users
+- has_many :groups_users
 - has_many :comments
-- users through:groups_users
+- has_many users through:groups_users
 
 ## groups_usersテーブル
 |Column|Type|Options|

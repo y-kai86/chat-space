@@ -7,6 +7,7 @@
 |username|string|null: false|
 ### Association
 - groups through:groups_users
+- has_many :groups
 - has_many :comments
 
 ## groupsテーブル
@@ -15,6 +16,7 @@
 |name|string|null: false|
 ### Association
 - users through:groups_users
+- has_many :users
 - has_many :comments
 
 ## groups_usersテーブル

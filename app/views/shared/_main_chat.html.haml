@@ -1,0 +1,25 @@
+.chat-main
+  .chat-main__group-info
+    .group-info
+      .group-info__group
+        .group-info__group-name test
+        .group-info__group-menber Number : name
+      .group-info__edit-btn 
+        = link_to "#", class: "edit" do
+          Edit
+
+  .chat-main__message-lists
+    .message-list
+      .message-list__info
+        .mesaage-list__info-name masa
+        .message-list__info-data 2019/11/20(Wed) 17:43:01
+      .message-list__text おはよう!
+      .message-list__text-box masa 2019/11/20(Wed) 17:43:34
+  
+  .chat-main__from
+    .message-from
+      .message-from__input type a message
+      %label{class: "message-from__ikon"}
+        = icon('far', 'image')
+        %input{type: "file", class: 'photo'}
+    .message-btn send

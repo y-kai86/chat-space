@@ -1,6 +1,9 @@
 @import "reset";
-@import "modules/messages.scss";
+@import "config/colors";
+@import "modules/messages";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import "modules/user";
+@import "modules/flash";
 @import "modules/side.scss";
 @import "modules/main.scss";

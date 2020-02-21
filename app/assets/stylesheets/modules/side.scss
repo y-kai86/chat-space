@@ -36,19 +36,22 @@
     height: calc(100vh - 100px);
     color: #ffffff;
     font-weight: bold;
+    text-decoration: none;
     .group{
       width: 260px;
       padding-top: 20px;
-      margin: auto;
+      // text-decoration: none;
       &__name{
         font-size: 15px;
         margin-bottom: 5px;
         color: #ffffff;
+        margin-left: 15px;
       }
       &__message{
         font-size: 11px;
         margin-bottom: 40px;
         color: #ffffff;
+        margin-left: 15px;
       }
     }
   }

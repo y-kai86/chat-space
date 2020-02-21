@@ -5,8 +5,8 @@
         .group-info__group-name 
           = @group.name
         .group-info__group-menber
+          Menber:
           - @group.users.each do |group_user|
-            Menber:
             = group_user.name
       .group-info__edit-btn 
         = link_to "Edit", edit_group_path(params[:group_id]),class: "edit"

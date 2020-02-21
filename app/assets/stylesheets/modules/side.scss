@@ -1,4 +1,7 @@
 .side-bar{
+  a{
+    text-decoration: none;
+  }
   height: 100vh;
   width: 300px;
   &__user-name{
@@ -36,11 +39,9 @@
     height: calc(100vh - 100px);
     color: #ffffff;
     font-weight: bold;
-    text-decoration: none;
     .group{
       width: 260px;
       padding-top: 20px;
-      // text-decoration: none;
       &__name{
         font-size: 15px;
         margin-bottom: 5px;
